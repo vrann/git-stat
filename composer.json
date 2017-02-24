@@ -1,0 +1,15 @@
+{
+    "name": "vrann/git-stat",
+    "type": "project",
+    "require": {
+        "knplabs/github-api": "^2.0",
+        "php-http/guzzle6-adapter": "^1.1",
+        "elasticsearch/elasticsearch": "~5.0"
+    },
+    "authors": [
+        {
+            "name": "Eugene Tulika",
+            "email": "vranen@gmail.com"
+        }
+    ]
+}
