@@ -11,5 +11,10 @@
             "name": "Eugene Tulika",
             "email": "vranen@gmail.com"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "Vrann\\": "app"
+        }
+    }
 }
