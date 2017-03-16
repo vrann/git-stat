@@ -38,7 +38,7 @@ echo "</table>";
 function prstat() {
 
     $esAdapter = new \Vrann\Adapter\ElasticSearch();
-    $mysqlAdapter = new \Vrann\Adapter\Mysql();
+    //$mysqlAdapter = new \Vrann\Adapter\Mysql();
 
     $client = new \Github\Client();
 
