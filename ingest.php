@@ -63,7 +63,7 @@ function prstat() {
 
     while (count($prs) > 0) {
         foreach ($prs as $pr) {
-            //$esAdapter->ingest($pr);
+            $esAdapter->ingest($pr);
             ///$mysqlAdapter->ingest($pr);
 
             $year = date('Y', strtotime($pr['created_at']));
@@ -85,7 +85,7 @@ function prstat() {
     );
     while (count($prs) > 0) {
         foreach ($prs as $pr) {
-            //$esAdapter->ingest($pr);
+            $esAdapter->ingest($pr);
             //$mysqlAdapter->ingest($pr);
 
             $year = date('Y', strtotime($pr['created_at']));
